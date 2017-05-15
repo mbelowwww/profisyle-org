@@ -1,0 +1,1611 @@
+/* Media Queries */
+
+		@media only screen and (min-width: 995px) {
+#wrap .container {
+ width: 960px;
+}
+#nav {
+ display:none;
+}
+#content .domain span.domain-name{
+	display:none;
+}
+#accordion{
+	display:none;
+}
+.sub_nav{
+	display:none;
+}
+#menu_btn img{
+	display:none;
+}
+.rs{
+	margin:0 0 0 -36px !important;
+}
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+#wrap .container {
+ width: 768px;
+}
+.navi {
+ display:none;
+}
+<!--navi-->
+#menu_btn{
+	float:left;
+	margin:115px 0 0 0;
+}
+.menu{
+	float:right;
+	margin:50px 0 0 0;
+}
+#sub_menu{
+	background:#000;
+	float:left;
+	width:768px;
+	z-index:1800;
+	position: absolute;
+	margin:81px 0 0 0;
+}
+#sub_menu li{
+	border-bottom:solid 1px #4e4e4e;
+}
+#sub_menu li.last{
+	border-bottom:none;
+}
+#sub_menu a{
+	display:block;
+	color:#CCC;
+	background:#3c3c3c;
+	line-height:32px;
+	padding:0 0 0 15px;
+	text-transform:uppercase;
+}
+#sub_menu a:hover{
+	background:#2b2b2b;
+	display:block;
+}
+
+
+<!--navi End-->
+
+
+#content .domain{
+	background:url(../images/domain.png) no-repeat;
+	float:left;
+	width:100%;
+	height:64px;
+}
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain input{ 
+	width:165px;
+	
+}
+#content .welcome{
+	float:left;
+	width:448px;
+	margin:30px 0 0 0;
+}
+#content .welcome .welcome_img{
+	display:none;
+}
+#content .welcome .text{
+	float:left;
+	margin:20px 0 0 0;
+}
+#content .services .service_sec{
+	width:244px;
+	margin:0 18px 0 0;
+}
+#content .services .service_sec img{
+	width:60%;
+}
+#content .services .last{
+	margin:0px;
+}
+
+
+#content .table .table_sec{
+	float:left;
+	width:24%;
+	margin:0 10px 0 0;
+}
+#content .table .table_sec .table-bot{
+	width:100%;
+}
+#content .table_sec .detail a.table_btn{
+	margin:15px 0 0 38px;
+}
+#content .table .last{
+	margin:0 0 0 0;
+}
+
+#footer .detail .blog{
+	width:450px;
+}
+#footer .detail .blog .text{
+	width:360px;
+}
+#footer .footer_bot .links{
+	float:left;
+	width:18%;
+	margin:65px 13px 24px 0;
+}
+#footer .footer_bot .last{
+	margin:65px 0 0px 0;
+}
+
+
+
+/*<!--ABOUT US-->*/
+
+#sub_content .what_do img{
+	margin:0 0 0 210px;
+}
+#sub_content .what_do .text{
+	text-align:center;
+	margin:20px 0 0 115px;
+	float:left;
+}
+#sub_content .what_do .text ul{
+	display:none;
+}
+#sub_content .light_bg{
+	margin:18px 0 0 0;
+}
+#sub_content .our_mission img{
+	margin:0 0 0 210px;
+	float:left;
+}
+#sub_content .our_mission .text{
+	text-align:center;
+	margin:20px 0 0 115px;
+	float:left;
+}
+#sub_content .our_mission .text ul{
+	display:none;
+}
+#sub_content .white_bg{
+}
+#sub_content .team .member_sec{
+	width:23%;
+}
+#sub_content .team .member_sec img{
+	width:90%;
+}
+#sub_content .team .member_sec .social{
+	width:30%;
+	padding:8px 45px;
+	margin:10px 0 0 25px;
+	
+}
+
+/*<!--WEB HOSTING-->*/
+
+#features-toggle{
+	display:none;
+}
+#sub_content .web_hosting .table .table_sec{
+	float:left;
+	width:24%;
+	margin:0 10px 0 0;
+}
+#sub_content .web_hosting .table .table_sec .table-bot{
+	width:100% ;
+}
+#sub_content .web_hosting .table_sec .detail a.table_btn{
+	margin:15px 0 0 38px;
+}
+#sub_content .web_hosting .table .last{
+	margin:0 0 0 0;
+}
+
+
+/*<!--DOMAIN-->*/
+#sub_content .domain input{
+	width:175px;
+}
+#sub_content .domains{ 
+	width:100%;
+}
+#sub_content .domains .gray span.title{ 
+	width:22%;
+}
+#sub_content .domains .gray span.title.last{ 
+	width:0%;
+}
+#sub_content .domains .light span.detail{ 
+	width:22%;
+}
+#sub_content .domains .light span.detail.last{ 
+	width:0%;
+}
+#sub_content .domains .dark span.detail{ 
+	width:22%;
+}
+#sub_content .domains .dark span.detail.last{ 
+	width:0%;
+}
+
+/*<!--DEDICATED SERVERS-->*/
+
+#sub_content .table_two.last{
+	margin:0 0 15px 242px;
+}
+#sub_content .dedi_servers .dedi_sec{
+	float:left;
+	width:100%;
+	margin:30px 72px 0 0;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	margin:0 0 15px 40px;
+}
+
+
+
+
+/*<!--CONTACT US-->*/
+
+#sub_content .info{
+	width:42%;
+}
+#sub_content .info img{
+	width:100%;
+}
+#sub_content .get_touch{
+	margin:10px 0 0 30px;
+}
+#sub_content .contact_social{
+	float:left;
+	margin:20px 0 0 300px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+#wrap .container {
+ width: 640px;
+}
+.navi {
+ display:none;
+}
+
+<!--navi-->
+#menu_btn{
+	float:left;
+	margin:115px 0 0 0;
+}
+.menu{
+	float:right;
+	margin:50px 0 0 0;
+}
+#sub_menu{
+	background:#000;
+	float:left;
+	width:640px;
+	z-index:1800;
+	position: absolute;
+	margin:81px 0 0 0;
+}
+#sub_menu li{
+	border-bottom:solid 1px #4e4e4e;
+}
+#sub_menu li.last{
+	border-bottom:none;
+}
+#sub_menu a{
+	display:block;
+	color:#CCC;
+	background:#3c3c3c;
+	line-height:32px;
+	padding:0 0 0 15px;
+	text-transform:uppercase;
+}
+#sub_menu a:hover{
+	background:#2b2b2b;
+	display:block;
+}
+
+
+<!--navi End-->
+
+#content .domain{
+	background:url(../images/domain.png) no-repeat;
+	float:left;
+	width:100%;
+	height:64px;
+}
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain input{ 
+	width:218px;
+}
+#content .domain .btn-gry{
+	display:none; 
+}
+#content .welcome{
+	float:left;
+	width:60%;
+	margin:30px 0 0 0;
+}
+#content .welcome .welcome_img{
+	display:none;
+}
+#content .welcome .text{
+	float:left;
+	width:100%;
+	margin:20px 0 0 0;
+}
+#content .welcome .text .section{
+	float:left;
+	width:50%;
+	margin:10px 0 0 0;
+}
+#content .services .service_sec{
+	width:200px;
+	margin:0 18px 0 0;
+}
+#content .services .service_sec img{
+	width:52%;
+}
+#content .services .last{
+	margin:0px;
+}
+
+#content .table .table_sec{
+	float:left;
+	width:24%;
+	margin:0 8px 0 0;
+}
+#content .table .table_sec .table-bot{
+	width:100%;
+}
+#content .table_sec .detail a.table_btn{
+	margin:15px 0 0 24px;
+}
+#content .table .last{
+	margin:0 0 0 0;
+}
+#footer .detail .blog{
+	width:300px;
+}
+#footer .detail .blog img{
+	display:none;
+}
+#footer .detail .blog .text{
+	width:300px;
+}
+#footer .footer_bot .links{
+	float:left;
+	width:22%;
+	margin:65px 24px 24px 0;
+}
+#footer .footer_bot .support{
+	display:none;
+}
+#footer .footer_bot .last{
+	margin:65px 0 0px 0;
+}
+
+
+
+
+/*ABOUT US*/
+
+#sub_content .what_do img{
+	margin:0 0 0 130px;
+}
+#sub_content .what_do .text{
+	text-align:center;
+	margin:20px 0 0 40px;
+	float:left;
+}
+#sub_content .what_do .text ul{
+	display:none;
+}
+#sub_content .light_bg{
+	margin:18px 0 0 0;
+}
+#sub_content .our_mission img{
+	margin:0 0 0 130px;
+	float:left;
+}
+#sub_content .our_mission .text{
+	text-align:center;
+	margin:20px 0 0 40px;
+	float:left;
+}
+#sub_content .our_mission .text ul{
+	display:none;
+}
+#sub_content .team .member_sec{
+	width:30%;
+}
+#sub_content .team .member_sec.last{
+	margin:0 0 0 220px;
+}
+#sub_content .team .member_sec img{
+	width:90%;
+}
+#sub_content .team .member_sec .social{
+	padding:8px 35px;
+	margin:10px 0 0 25px;
+	
+}
+
+/*<!--WEB HOSTING-->*/
+
+#features-toggle{
+	display:none;
+}
+#sub_content .web_hosting .table .table_sec{
+	float:left;
+	width:24%;
+	margin:0 8px 0 0;
+}
+#sub_content .web_hosting .table .table_sec .table-bot{
+	width:100%;
+}
+#sub_content .web_hosting .table_sec .detail a.table_btn{
+	margin:15px 0 0 24px;
+}
+#sub_content .web_hosting .table .last{
+	margin:0 0 0 0;
+}
+
+/*<!--DOMAIN-->*/
+#sub_content .domain input{
+	width:212px;
+}
+#sub_content .domain span.name{
+	display:none;
+}
+#sub_content .domains{ 
+	width:100%;
+}
+#sub_content .domains .gray span.title{ 
+	width:22%;
+}
+#sub_content .domains .gray span.title.last{ 
+	width:0%;
+}
+#sub_content .domains .light span.detail{ 
+	width:22%;
+}
+#sub_content .domains .light span.detail.last{ 
+	width:0%;
+}
+#sub_content .domains .dark span.detail{ 
+	width:22%;
+}
+#sub_content .domains .dark span.detail.last{ 
+	width:0%;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .table_two{
+	margin:0 0 25px 50px;
+}
+#sub_content .table_two.last{
+	margin:0 0 15px 50px;
+}
+#sub_content .dedi_servers .dedi_sec{
+	float:left;
+	width:100%;
+	margin:30px 72px 0 0;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	margin:0 px 15px 0px;
+}
+
+
+/*<!--CONTACT US-->*/
+
+#sub_content .info{
+	text-align:center;
+	margin:0 0 0 50px;
+}
+#sub_content .form{
+	text-align:center;
+	float:left;
+	margin:0 0 0 100px;
+	width:405px;
+}
+#sub_content .get_touch{
+	width:82%;
+	margin:10px 0 0 140px;
+}
+#sub_content .contact_social{
+	float:left;
+	margin:20px 0 0 240px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+#wrap .container {
+ width: 480px;
+}
+
+.navi {
+ display:none;
+}
+
+<!--navi-->
+#menu_btn{
+	float:left;
+	margin:115px 0 0 0;
+}
+.menu{
+	float:right;
+	margin:50px 0 0 0;
+}
+#sub_menu{
+	background:#000;
+	float:left;
+	width:480px;
+	z-index:1800;
+	position: absolute;
+	margin:81px 0 0 0;
+}
+#sub_menu li{
+	border-bottom:solid 1px #4e4e4e;
+}
+#sub_menu li.last{
+	border-bottom:none;
+}
+#sub_menu a{
+	display:block;
+	color:#CCC;
+	background:#3c3c3c;
+	line-height:32px;
+	padding:0 0 0 15px;
+}
+#sub_menu a:hover{
+	background:#2b2b2b;
+	display:block;
+}
+
+
+<!--navi End-->
+
+#content .domain{
+	background:url(../images/domain.png) no-repeat;
+	float:left;
+	width:100%;
+	height:64px;
+}
+#content .domain p{
+	display:none;
+}
+#content .domain span.domain-name{
+	font-size:11px;
+	font-family: 'PTSansBold';
+	text-transform:uppercase;
+	color:#6c6c6c;
+	float:left;
+	margin:24px 0 0 22px;
+}
+#content .domain input{ 
+	background:#FFFFFF;
+	border:solid 1px #e5e5e5;
+	width:150px;
+	padding:0 8px;
+	height:34px;
+	float:left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color:#bdbdbd;
+	font-size:11px;
+	margin:12px 10px 0 15px;
+}
+#content .domain .domain_btns{ 
+	 margin:2px 15px 0 0px !important;
+	 float:right;
+}
+#content .domain .btn-gry{
+	display:none; 
+}
+#content .welcome{
+	float:left;
+	width:45%;
+	margin:30px 0 0 0;
+}
+#content .welcome h1{
+	font-size:20px;
+}
+#content .welcome .welcome_img{
+	display:none;
+}
+#content .welcome .text{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+}
+#content .welcome .text p{
+	display:none;
+}
+#content .welcome .text .section{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+}
+#content .services .service_sec{
+	width:222px;
+	margin:0 18px 0 0;
+}
+#content .services .service_sec img{
+	width:52%;
+}
+#content .services .last{
+	margin:20px 0 0 120px;
+}
+#content .table .table_sec{
+	float:left;
+	width:227px;
+	margin:10px 12px 0 0;
+}
+#content .table .last{
+	margin:10px 0 0 0;
+}
+#footer .detail .blog{
+	width:470px;
+	text-align:center;
+}
+#footer .detail .blog img{
+	display:none;
+}
+#footer .detail .blog .text{
+	width:470px;
+}
+#footer .detail .email{
+	margin:12px 80px 0 0;
+}
+#footer .footer_bot .links{
+	float:left;
+	width:142px;
+	margin:65px 13px 24px 0;
+}
+#footer .footer_bot .last{
+	margin:20px 0 25px 40px;
+	width:50%;
+}
+#footer .footer_bot .social-con{
+	margin:20px 0 0px 0;
+}
+
+
+
+/*ABOUT US*/
+
+#sub_content .what_do img{
+	margin:0 0 0 60px;
+}
+#sub_content .what_do .text{
+	text-align:center;
+	margin:20px 0 0 0px;
+	float:left;
+	width:100%;
+}
+#sub_content .what_do .text ul{
+	display:none;
+}
+#sub_content .light_bg{
+	margin:18px 0 0 0;
+}
+#sub_content .our_mission img{
+	margin:0 0 0 60px;
+	float:left;
+}
+#sub_content .our_mission .text{
+	text-align:center;
+	margin:20px 0 0 0;
+	float:left;
+	width:100%;
+}
+#sub_content .our_mission .text ul{
+	display:none;
+}
+#sub_content .team .member_sec{
+	width:50%;
+	margin:10px 0 10px 110px;
+}
+#sub_content .team .member_sec .social{
+}
+
+
+/*<!--WEB HOSTING-->*/
+
+#features-toggle{
+	display:none;
+}
+#sub_content .web_hosting .table .table_sec{
+	float:left;
+	width:227px;
+	margin:10px 12px 0 0;
+}
+#sub_content .web_hosting .table .last{
+	margin:10px 0 0 0;
+}
+
+/*<!--DOMAIN-->*/
+#sub_content .domain input{
+	width:228px;
+}
+#sub_content .domain span.name{
+	display:none;
+}
+#sub_content .domain a.btn-gry{ 
+	display:none;
+}
+#sub_content .domains{ 
+	width:100%;
+}
+#sub_content .domains .gray span.title{ 
+	width:22%;
+}
+#sub_content .domains .gray span.title.last{ 
+	width:0%;
+}
+#sub_content .domains .light span.detail{ 
+	width:22%;
+}
+#sub_content .domains .light span.detail.last{ 
+	width:0%;
+}
+#sub_content .domains .dark span.detail{ 
+	width:22%;
+}
+#sub_content .domains .dark span.detail.last{ 
+	width:0%;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .table_two{
+	margin:0 0 25px 10px;
+}
+#sub_content .table_two.last{
+	margin:0 0 15px 10px;
+}
+#sub_content .dedi_servers .dedi_sec{
+	float:left;
+	width:100%;
+	margin:30px 72px 0 0;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	margin:0 0 15px 40px;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	width:100%;
+	margin:0 0px 15px 0px;
+}
+#sub_content .right_text .text{
+	width:100%;
+	margin:0 0 15px 0;
+}
+#sub_content .right_text .feature{
+	width:100%;
+	margin:0 0 15px 0;
+}
+
+/*<!--CONTACT US-->*/
+
+#sub_content .info{
+	text-align:center;
+	margin:0 0 0 20px;
+	width:90%;
+}
+#sub_content .info img{
+	width:100%;
+}
+#sub_content .form{
+	text-align:center;
+	float:left;
+	margin:0 0 0 25px;
+	width:405px;
+}
+#sub_content .get_touch{
+	width:82%;
+	margin:10px 0 0 85px;
+}
+#sub_content .contact_social{
+	float:left;
+	margin:20px 0 0 175px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#wrap .container {
+ width: 320px;
+}
+.navi {
+ display:none;
+}
+
+<!--navi-->
+#menu_btn{
+	float:left;
+	margin:115px 0 0 0;
+}
+.menu{
+	float:right;
+	margin:50px 0 0 0;
+}
+#sub_menu{
+	background:#000;
+	float:left;
+	width:320px;
+	z-index:1800;
+	position: absolute;
+	margin:81px 0 0 0;
+}
+#sub_menu li{
+	border-bottom:solid 1px #4e4e4e;
+}
+#sub_menu li.last{
+	border-bottom:none;
+}
+#sub_menu a{
+	display:block;
+	color:#CCC;
+	background:#3c3c3c;
+	line-height:32px;
+	padding:0 0 0 15px;
+	text-transform:uppercase;
+}
+#sub_menu a:hover{
+	background:#2b2b2b;
+	display:block;
+}
+
+
+<!--navi End-->
+
+#header .buttons{
+	margin:-27px 0px 0 0;
+	z-index:1500;
+	position:relative;
+}
+#signin_menu {
+	margin-top:1px;
+	margin-right: 0px;
+	*margin-right: -1px;
+}
+
+#header .buttons a.chat{
+	display:none;
+}
+
+
+
+
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain{
+	display:none;
+}
+#content .domain p{
+	display:none;
+}
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain input{ 
+	display:none;
+}
+
+#content .domain .btn-gry{
+	display:none; 
+}
+
+#content .welcome{
+	float:left;
+	width:100%;
+	margin:30px 0 0 0;
+}
+#content .welcome h1{
+	font-size:20px;
+}
+#content .welcome .welcome_img{
+	display:none;
+}
+#content .welcome .text{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+}
+#content .welcome .text p{
+}
+#content .welcome .text .section{
+	display:none;
+}
+#content .testimonial{
+	margin:25px 50px 0 0;
+}
+#content .services .service_sec{
+	margin:0 0 30px 0;
+}
+#content .table .table_sec{
+	float:left;
+	width:227px;
+	margin:10px 12px 0 30px;
+}
+#content .table .last{
+	margin:10px 0 0 30px;
+}
+#footer .detail .blog{
+	width:370px;
+	text-align:center;
+	margin:0 55px 0 0;
+}
+#footer .detail .blog img{
+	display:none;
+}
+#footer .detail .blog .text{
+	width:300px;
+}
+#footer .detail .email{
+	margin:12px 10px 0 0;
+}
+#footer .footer_bot .links{
+	float:left;
+	width:155px;
+	margin:65px 0px 24px 0;
+}
+#footer .footer_bot .last{
+	margin:20px 0 25px 0px;
+	width:50%;
+}
+#footer .footer_bot .support{
+	display:none;
+}
+#footer .footer_bot .social-con{
+	margin:20px 0 0px 0;
+}
+#footer .copyright{
+	text-align:center;
+	height:57px;
+}
+#footer .copyright p{
+	margin:0 0 0 28px;
+}
+#footer .copyright .privacy{
+	margin:-15px 60px 0 0px;
+}
+
+
+
+
+/*ABOUT US*/
+
+#sub_banner h1{
+	font-size:200%;
+}
+#sub_content .what_do img{
+	width:90%;
+}
+#sub_content .what_do .text{
+	text-align:center;
+	margin:20px 0 0 0px;
+	float:left;
+	width:100%;
+}
+#sub_content .what_do .text ul{
+	display:none;
+}
+#sub_content .light_bg{
+	margin:18px 0 0 0;
+}
+#sub_content .our_mission img{
+	width:90%;
+}
+#sub_content .our_mission .text{
+	text-align:center;
+	margin:20px 0 0 0;
+	float:left;
+	width:100%;
+}
+#sub_content .our_mission .text ul{
+	display:none;
+}
+#sub_content .team .member_sec{
+	margin:10px 0 10px 50px;
+}
+
+
+/*<!--WEB HOSTING-->*/
+
+#features-toggle{
+	display:none;
+}
+#sub_content .solution h1{
+	font-size:22px;
+}
+#sub_content .web_hosting .table .table_sec{
+	float:left;
+	width:227px;
+	margin:10px 12px 0 30px;
+}
+#sub_content .web_hosting .table .last{
+	margin:10px 0 0 30px;
+}
+
+/*<!--DOMAIN-->*/
+#sub_content .domain input{
+	width:235px;
+}
+#sub_content .domain span.name{
+	display:none;
+}
+#sub_content .domain a.btn-gry{ 
+	display:none;
+}
+#sub_content .domain a.btn-grn{ 
+	margin:18px 52px 0 0;
+}
+#sub_content .domains{ 
+	width:100%;
+}
+#sub_content .domains .gray span.title{ 
+	width:22%;
+	font-size:12px;
+}
+#sub_content .domains .gray span.title.last{ 
+	width:0%;
+}
+#sub_content .domains .light span.detail{ 
+	width:22%;
+	font-size:11px;
+}
+#sub_content .domains .light span.detail.last{ 
+	width:0%;
+}
+#sub_content .domains .dark span.detail{ 
+	width:22%;
+	font-size:11.5px;
+}
+#sub_content .domains .dark span.detail.last{ 
+	width:0%;
+}
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .table_two{
+	margin:0 0 25px 35px;
+}
+#sub_content .table_two.last{
+	margin:0 0 15px 35px;
+}
+#sub_content .dedi_servers .dedi_sec{
+	float:left;
+	width:100%;
+	margin:30px 72px 0 0;
+}
+
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	margin:0 0 15px 40px;
+}
+
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	width:100%;
+	margin:0 0px 15px 0px;
+}
+#sub_content .right_text .text{
+	width:100%;
+	margin:0 0 15px 0;
+}
+#sub_content .right_text .feature{
+	width:100%;
+	margin:0 0 15px 0;
+}
+#sub_content .right_text .question{
+	display:none;
+}
+#sub_content .cloud_text h1{
+	font-size:20px;
+}
+#sub_content .cloud_text p{
+	font-size:12px;
+}
+
+
+/*<!--CONTACT US-->*/
+
+#sub_content .info{
+	text-align:center;
+	margin:0 0 0 20px;
+	width:90%;
+}
+#sub_content .info img{
+	width:100%;
+}
+#sub_content .form{
+	float:left;
+	margin:0 0 0 0;
+	width:100%;
+}
+#sub_content .form input[type=submit]{
+	float:left;
+	margin:0 0 0 0;
+}
+#sub_content .get_touch{
+	width:72%;
+	margin:10px 0 0 50px;
+}
+#sub_content .contact_social{
+	float:left;
+	margin:20px 0 0 50px;
+}
+
+}
+
+
+
+ @media only screen and (max-width: 320px) {
+	 #wrap .container {
+ width: 265px;
+ padding:0 10px;
+}
+.navi {
+ display:none;
+}
+#header .top_sec li.number{
+	margin:14px 0 0 10px;
+}
+#header .buttons{
+	margin:-27px 0px 0 0;
+	z-index:1500;
+	position:relative;
+}
+
+<!--navi-->
+#menu_btn{
+	float:left;
+	margin:115px 0 0 0;
+}
+.menu{
+	float:right;
+	margin:50px 0 0 0;
+}
+#sub_menu{
+	background:#000;
+	float:left;
+	width:265px;
+	z-index:1800;
+	position: absolute;
+	margin:81px 0 0 0;
+}
+#sub_menu li{
+	border-bottom:solid 1px #4e4e4e;
+}
+#sub_menu li.last{
+	border-bottom:none;
+}
+#sub_menu a{
+	display:block;
+	color:#CCC;
+	background:#3c3c3c;
+	line-height:32px;
+	padding:0 0 0 15px;
+}
+#sub_menu a:hover{
+	background:#2b2b2b;
+	display:block;
+}
+
+
+<!--navi End-->
+
+
+#signin_menu {
+	margin-top:1px;
+	margin-right: 0px;
+	*margin-right: -1px;
+}
+#header .buttons a.chat{
+	display:none;
+}
+
+
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain{
+	display:none;
+}
+#content .domain p{
+	display:none;
+}
+#content .domain span.domain-name{
+	display:none;
+}
+#content .domain input{ 
+	display:none;
+}
+
+#content .domain .btn-gry{
+	display:none; 
+}
+
+#content .welcome{
+	text-align:center;
+	width:90%;
+	margin:30px 0 0 20px;
+}
+#content .welcome h1{
+	font-size:20px;
+}
+#content .welcome .welcome_img{
+	display:none;
+}
+#content .welcome .text{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+}
+
+#content .welcome .text .section{
+	display:none;
+}
+#content .testimonial{
+	margin:25px 10px 0 0;
+}
+#content .services .service_sec{
+	margin:0 0 30px 28px;
+	width:80%;
+}
+#content .table .table_sec{
+	float:left;
+	
+	margin:10px 12px 0 20px;
+}
+#content .table .last{
+	margin:10px 0 0 20px;
+}
+.client{
+	display:none;
+}
+#footer .building img{
+	display:none;
+}
+#footer .detail .blog{
+	width:370px;
+	text-align:center;
+	margin:0 55px 0 0;
+}
+#footer .detail{
+	
+	padding:0 0;
+}
+
+#footer .detail .blog img{
+	display:none;
+}
+#footer .detail .blog{
+	display:none;
+}
+#footer .detail .email{
+	margin:0 20px 0 7px;
+	background:none;
+	float:left;
+	width:85%;
+}
+#footer .detail .email input[type=text]{
+	width:64%;
+}
+#footer .footer_bot .links{
+	float:left;
+	width:115px;
+	margin:65px 0px 24px 10px;
+}
+#footer .footer_bot .last{
+	margin:20px 0 25px 0px;
+	width:50%;
+}
+#footer .footer_bot .support{
+	display:none;
+}
+#footer .footer_bot .social-con{
+	margin:20px 0 0px 50px;
+	width:145px;
+}
+#footer .footer_bot .last{
+	margin:20px 0 20px 50px;
+	width:70%;
+}
+#footer .copyright{
+	text-align:center;
+	height:57px;
+}
+#footer .copyright p{
+	margin:0 0 0 5px;
+
+}
+#footer .copyright .privacy{
+	margin:-15px 85px 0 35px;
+	float:left;
+}
+
+
+
+/*ABOUT US*/
+
+#sub_banner h1{
+	font-size:150%;
+}
+#sub_content .what_do img{
+	width:75%;
+	margin:0 0 0 15px;
+}
+#sub_content .what_do .text{
+	text-align:center;
+	margin:20px 0 0 15px;
+	float:left;
+	width:75%;
+}
+#sub_content .what_do .text ul{
+	display:none;
+}
+#sub_content .light_bg{
+	margin:18px 0 0 0;
+}
+#sub_content .our_mission img{
+	width:75%;
+	margin:0 0 0 10px;
+	float:left;
+}
+#sub_content .our_mission .text{
+	text-align:center;
+	margin:20px 0 0 0;
+	float:left;
+	width:75%;
+}
+#sub_content .our_mission .text ul{
+	display:none;
+}
+#sub_content .team .member_sec{
+	margin:10px 0 10px 20px;
+}
+
+/*<!--WEB HOSTING-->*/
+
+#features-toggle{
+	display:none;
+}
+#sub_content .solution h1{
+	font-size:18px;
+}
+#sub_content .web_hosting .table .table_sec{
+	float:left;
+	
+	margin:10px 12px 0 20px;
+}
+#sub_content .web_hosting .table .last{
+	margin:10px 0 0 20px;
+}
+
+/*<!--DOMAIN-->*/
+#sub_content .domain input{
+	width:175px;
+}
+#sub_content .domain span.name{
+	display:none;
+}
+#sub_content .domain a.btn-gry{ 
+	display:none;
+}
+#sub_content .domain a.btn-grn{ 
+	margin:18px 30px 0 0;
+}
+#sub_content .domains{ 
+	width:100%;
+}
+#sub_content .domains .gray span.title{ 
+	width:22%;
+	font-size:12px;
+}
+#sub_content .domains .gray span.title.last{ 
+	width:0%;
+}
+#sub_content .domains .light span.detail{ 
+	width:22%;
+	font-size:11px;
+}
+#sub_content .domains .light span.detail.last{ 
+	width:0%;
+}
+#sub_content .domains .dark span.detail{ 
+	width:22%;
+	font-size:11.5px;
+}
+#sub_content .domains .dark span.detail.last{ 
+	width:0%;
+}
+
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .table_two{
+	margin:0 0 25px 20px;
+}
+#sub_content .table_two.last{
+	margin:0 0 15px 20px;
+}
+#sub_content .dedi_servers .dedi_sec{
+	float:left;
+	width:80%;
+	margin:30px 72px 0 0;
+}
+
+
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	margin:0 0 15px 40px;
+}
+
+
+
+/*<!--DEDICATED SERVERS-->*/
+#sub_content .cld_services{
+	display:none;
+}
+#sub_content .right_text{
+	float:left;
+	width:90%;
+	margin:0 0px 15px 15px;
+}
+#sub_content .right_text .text{
+	width:100%;
+	margin:0 0 15px 0;
+}
+#sub_content .right_text .feature{
+	width:100%;
+	margin:0 0 15px 0;
+}
+#sub_content .right_text .question{
+	display:none;
+}
+#sub_content .cloud_text h1{
+	font-size:20px;
+}
+#sub_content .cloud_text p{
+	font-size:12px;
+}
+
+/*<!--CONTACT US-->*/
+
+#sub_content .info{
+	text-align:center;
+	margin:0 0 0 20px;
+	width:90%;
+}
+#sub_content .info img{
+	width:100%;
+}
+#sub_content .form{
+	float:left;
+	margin:0 0 0 20px;
+	width:85%;
+}
+#sub_content .form .field input[type=text]{
+	width:100%;
+}
+#sub_content .form .field textarea{
+	width:100%;
+}
+#sub_content .form input[type=submit]{
+	float:left;
+	margin:0 0 0 0;
+}
+#sub_content .get_touch{
+	width:72%;
+	margin:10px 0 0 30px;
+}
+#sub_content .contact_social{
+	float:left;
+	margin:20px 0 0 30px;
+}
+
+}
+

@@ -1,0 +1,208 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<title>ProfiStyle - Косметологический салон</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+<!-- CSS STYLE -->
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- jQuery Slider  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.plugins.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.revolution.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<!-- REVOLUTION BANNER CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+</head>
+
+<body>
+<div id="wrap">
+	<!-- HEADER --> 
+  <div id="header">
+  
+    <div class="top_sec">
+      <div class="container">
+        <ul>
+          <li class="number">111-111-111</li>
+        </ul>
+        <div class="buttons">
+          <div id="container">
+            <div id="topnav" class="topnav"> 
+             </div>
+            <fieldset id="signin_menu">
+              <form method="post" id="signin" action="http://html6.com.ru">
+                <label for="username">Логин или Email</label>
+                <input id="username" name="username" value="" title="username" tabindex="4" type="text">
+                </p>
+                <p>
+                  <label for="password">Пароль</label>
+                  <input id="password" name="password" value="" title="password" tabindex="5" type="password">
+                </p>
+                <p class="remember">
+                  <input id="signin_submit" value="Войти" tabindex="6" type="submit">
+                  <input id="remember" name="remember_me" value="1" tabindex="7" type="checkbox">
+                  <label for="remember">Запомнить</label>
+                </p>
+                <p class="forgot"> <a href="#" id="resend_password_link">Забыли пароль?</a> </p>
+              </form>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main_bar">
+      <div class="container"> <a href="index.html"><img class="logo" src="images/logo.png" alt="" border="0" /></a>
+        <div class="navi">
+          <ul id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html" >О нас</a></li>
+            <li><a href="offers.html">Услуги</a></li>
+            <li class="last selected"><a class="selected" href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        
+        <!--sub menu-->
+        <a class="menu" href="#0" id="menu_btn"  ><img src="images/menu.jpg" alt="" border="0" /></a>
+        
+        <div class="clr"></div>
+        <div class="sub_nav">
+        <ul id="sub_menu" style="display:none;">
+            <li class="selected"><a class="selected" href="index.html">Главная</a></li>
+            <li><a href="about.html" >О нас</a></li>
+            <li> <a href="service.html">Услуги</a>
+            </li>
+            <li><a href="offers.html">Предложения</a></li>
+            <li class="last"><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <!--sub menu end-->
+
+      </div>
+    </div>
+    
+  </div>
+  <!-- HEADER END -->
+    <div class="clear"></div>
+    
+    <div id="sub_banner">
+    	<div class="container">
+        	<h1>Контакты</h1>
+        </div>
+    </div>
+    <div class="clear"></div>
+    
+    <div id="sub_content">
+    	<div class="container">
+        	
+            <div class="info">
+            	<h1>Контактная информация</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.426020797075!2d48.47317831548062!3d53.15639497993968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416853326d44852f%3A0x5594fd5a09afe307!2z0KHQvtCy0LXRgtGB0LrQsNGPINGD0LsuLCA4MSwg0KHRi9C30YDQsNC90YwsINCh0LDQvNCw0YDRgdC60LDRjyDQvtCx0LsuLCA0NDYwMjY!5e0!3m2!1sru!2sru!4v1494332960788" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                 </div>
+            
+            <div class="form">
+            	<h1>Заполните форму</h1>
+                <div id="div_success"></div>
+                              <div id="error" class="warning" style="display:none;"></div>
+					<form name="form" id="form"  method="post" action="#" onSubmit="return false;" >    
+                 <div class="field">
+             	<label>ФИО:</label>
+                        <input name="name" id="name" type="text" />
+                    </div>
+                     <div class="field">
+                    	<label>Тел.:</label>
+                        <input name="phone" id="phone" type="text"/>
+                    </div>
+                    <div class="field">
+                    	<label>Email:</label>
+                        <input name="email" id="email" type="text" />
+                    </div>
+                    <div class="field">
+                    	<label>Сообщение:</label>
+                        <textarea name="message" id="message" cols="" rows=""></textarea>
+                    </div>
+					<div class="g-recaptcha" data-sitekey="6LePmiAUAAAAABti-Mc2Eb13gPFSvlIxogzZhCzz"></div>
+				 <input type="submit" class="btn-org banner_btn contact" name="Submit" id="Submit" onClick="contact();" value="Отправить"/>
+                
+               </form> 
+                
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+        
+        
+        
+        <div class="white_bg">
+        	<div class="container">
+            	<div class="get_touch">
+                	<ul>
+                    	<li class="location">Россия, Сызрань, ул. Советская 81</li>
+                        <li class="email">ProfiStyle@mail.com</li>
+                        <li class="mobile">111-111-111</li>
+                    </ul>
+                </div>
+                
+     
+                
+            </div>
+        <div class="clear"></div>     
+        </div>    
+            
+    </div>
+    
+    <div class="container">
+    	 
+    </div>
+        
+    <!--FOOTER-->
+  <div id="footer">
+        
+    <div class="detail">
+      <div class="container">
+        <div class="blog">  
+         
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+    
+    <div class="footer_bot">
+      <div class="container">
+        
+        <div class="links">
+          
+         
+        
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+    <div class="copyright">
+      <div class="container">
+        <p>© 2017 ProfiStyle - Косметологический салон.</p>
+        <div class="privacy">
+          <ul>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!--FOOTER END-->
+    
+</div>
+</body>
+
+</html>
